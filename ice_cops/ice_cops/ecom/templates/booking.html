@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block contant %}
+{% load crispy_forms_tags %}
+<h1 class="text-center">Make an appointment</h1>
+<hr/>
+<div class="container mx-6 my-5 text-center">
+    <form action="" method="post">
+    
+        {{booking_form|crispy}}
+        <input type="submit">
+  </form>
+</div>
+
+
+{% endblock contant %}
+
